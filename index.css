@@ -1,0 +1,112 @@
+body{
+    font-family: "Outfit";
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.image .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image:hover,
+.image:active {
+  background-color: hsl(178, 100%, 50%); 
+}
+
+.image:hover .equilibrium,
+.image:active .equilibrium{
+  opacity: 0.5;
+}
+
+.image:hover .icon,
+.image:active .icon {
+  opacity: 1; 
+}
+
+.image{
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+.eye-icon{
+    position: absolute;
+    top: 140px;
+    left: 145px;
+}
+
+.equilibrium{
+    margin-top: 20px;
+    width: 275px;
+    border-radius: 15px;
+}
+
+.info{
+    width: 300px;
+    padding-left: 15px;
+}
+.paragraph{
+    color: rgb(173, 164, 164);
+}
+
+.eth{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.etherium-icon, .clock-icon{
+    margin-right: 8px;
+}
+
+.amount{
+    color: hsl(178, 100%, 50%);
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+
+
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.profile-pic{
+    height: 32px;
+    margin-right: 13px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.creation{
+    color: rgb(173, 164, 164);
+}
